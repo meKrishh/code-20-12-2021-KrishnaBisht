@@ -1,0 +1,9 @@
+###
+GET http://localhost:3001/bmicalculator
+
+###
+POST http://localhost::3001/bmicalculator
+Content-Type: application/json
+[
+   {"Gender": "Male", "HeightCm": 121, "WeightKg": 106 }, {"Gender": "Male", "HeightCm": 191,"WeightKg":45 }
+] 
